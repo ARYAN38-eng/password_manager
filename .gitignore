@@ -1,24 +1,31 @@
-# Logs
-logs
-*.log
+# Node.js
+node_modules/
+.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+.eslintcache
+
+# Vite or React-specific
+.vite/
 *.local
+*.DS_Store
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Optional OS/filesystem-specific
+Thumbs.db
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
